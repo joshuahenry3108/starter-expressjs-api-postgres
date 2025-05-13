@@ -36,6 +36,20 @@ app.post('/posts', async (req, res) => {
   }
 });
 
+app.get('/health', async (_ , res ) => {
+ 
+  res.status(200).json({
+ 
+   status: 'healthy',
+ 
+   success: true,
+ 
+  });
+ 
+});
+
 app.listen(process.env.PORT, () => {
   console.info(`Api container started. Listening on port ${process.env.PORT}`);
 });
+
+
