@@ -8,6 +8,7 @@
   "author": "Stacktape team <info@stacktape.com> (https://stacktape.com)",
   "scripts": {
     "lint": "npx eslint .",
+    "build": "tsc",
     "format": "npx prettier . --write"
   },
   "dependencies": {
