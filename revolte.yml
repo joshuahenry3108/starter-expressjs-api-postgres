@@ -72,7 +72,7 @@ revolte:
         rid_1:
           name: web-service
           type: WEB_SERVICE
-          entryPoint: src/index.ts
+          entryPoint: src/index.js
           specifications:
             cpu: 2
             memory: 2
