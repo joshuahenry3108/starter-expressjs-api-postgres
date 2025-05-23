@@ -1,6 +1,7 @@
 {
   "name": "expressjs-api-postgres",
   "version": "1.0.0",
+  "main": "server.js", 
   "private": true,
   "bugs": {
     "url": "https://github.com/stacktape/stacktape/issues"
