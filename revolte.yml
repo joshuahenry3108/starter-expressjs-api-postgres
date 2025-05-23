@@ -1,13 +1,13 @@
 revolte:
   version: '1.0'
   project: WeMap
-  appName: wemap--be
+  appName: wemap-BE
   env:
-    qa:
+    staging:
       branch: master
       services:
         rid_1:
-          name: web-service
+          name: map-web-service
           type: WEB_SERVICE
           entryPoint: ./src/index.ts
           specifications:
