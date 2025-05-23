@@ -3,7 +3,7 @@ revolte:
   project: WeMap
   appName: wemap--be
   env:
-    staging:
+    qa:
       branch: master
       services:
         rid_1:
