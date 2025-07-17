@@ -9,7 +9,7 @@
   "author": "Stacktape team <info@stacktape.com> (https://stacktape.com)",
   "scripts": {
     "lint": "npx eslint .",
-    "start": "src/index.ts",
+    "start": "./src/index.ts",
     "build": "tsc",
     "format": "npx prettier . --write"
   },
